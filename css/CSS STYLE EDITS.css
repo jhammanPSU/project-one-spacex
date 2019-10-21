@@ -1,0 +1,39 @@
+/*SPACE X*/
+/* Enter your Styles below! */
+
+
+/*Updating these as I work my through them*/
+/**/
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+header { 
+	background-color: #000;
+	color: #FFFFFF;
+	min-height: 100px;
+	margin-top: 75px;
+	background-image: url('../images/space banner.html');
+	background-size: contain;
+}
+
+header h1 {
+	padding: 40px 60px;
+	font-size: 48px;
+	color: #FFFFFF;
+}
+
+nav { background-color: #4446; }
+nav ul { 
+	display: flex;
+	justify-content: flex-end;
+}
+nav li { padding: 10px 10px; }
+nav a { color: BlanchedAlmond; }
+nav a:hover { color: white; }
+/**/

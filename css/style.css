@@ -4,77 +4,75 @@
 
 /*Updating these as I work my through them*/
 /**/
-body{
-	background-color:#f4f4f4;
-	color:#555;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:16px;
-	line-height:1.6em;
-	margin:0;
-}
-
-.centerQ{
-	width:400%;
-	margin:center;
-	overflow:hidden;
-}
-
-.Textbox{
-	width:60%;
-	margin:center;
-	overflow:hidden;
-}
-
+/*Links*/
 a {
 	text-decoration: none;
 	color: #333;
 }
-/**/
-a:hover { color: #456; }
 
+a:hover { color: #456; }
 header, nav, main, footer {
 	width: 85%;
 	margin: center;
 }
+/*Links*/
+
 
 
 /* Header styles */
 header { 
-	background-color: #000;
-	color: #FFFFFF;
-	min-height: 100px;
+	background-image; 
+	color: #191970;
+	min-height: 60px;
 	margin-top: 75px;
-	background-image: url('../images/space banner.html');
+	background-color: #0F0000;
+
 }
 
 header h1 {
-	padding: 40px 60px;
-	font-size: 48px;
-	color: #FFFFFF;
+	padding: 70px 70px;
+	font-size: 70px;
+	background-repeat: no-repeat;
 }
 
-header h2 {
-	padding: 40px 60px;
-	font-size: 38px;
-	color: #FFFFFF;
-}
+
 
 /* Nav styles */
-nav { background-color: #4446; }
+nav { background-color: #444446; }
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
 }
-nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
-nav a:hover { color: white; }
+nav li { padding: 15px 15px; }
+nav a { color: white; }
+nav a:hover { color: grey; }
 /**/
 
+
+
 /* Main styles */
+body{
+	background-image: url('../images/FixedSpacebackground.html');
+	background-position: 50% 50%
+	background-size: contain;
+	border-image-repeat: repeat;
+
+
+	width:fill;
+	height:fill;
+	line-height:2em;">
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	
+}
+
+
 main { 
-	background-color: #fff;
+	background-color: #F2F2F2;
 	display: grid;
-	grid-template-columns: 60% 40%;
+	grid-template-columns: 62% 38%;
 }
 
 section {
@@ -88,8 +86,9 @@ section ul, aside ul {
 }
 
 aside {
-	padding: 40px 10px;
+		padding: 40px 10px;
 }
+
 
 
 
@@ -99,4 +98,13 @@ footer {
 	color: white;
 	text-align: center;
  }
- footer p { padding: 20px; }
+
+
+
+footer p { padding: 20px; }
+
+
+
+
+
+
