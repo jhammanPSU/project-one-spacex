@@ -10,7 +10,7 @@ a {
 	color: #333;
 }
 
-a:hover { color: #456; }
+a:hover { color: #356; }
 header, nav, main, footer {
 	width: 85%;
 	margin: center;
@@ -18,79 +18,116 @@ header, nav, main, footer {
 /*Links*/
 
 
-
 /* Header styles */
 header { 
-	background-image; 
-	color: #191970;
-	min-height: 60px;
-	margin-top: 75px;
-	background-color: #0F0000;
+	/*background-image: url('../images/spacephoto.html');*/
+	/*transform: scale(1);*/
 
+	min-height: 20px;
+	width: auto;
+	margin:15px	15px;
+	background-color: #000000;
+	flex-basis: 1;
+	border-image-width: all;
+	/*background-repeat: no-repeat; */
 }
 
-header h1 {
-	padding: 70px 70px;
+h1 {
+	padding: 10px 60px 10px 10px;
 	font-size: 70px;
-	background-repeat: no-repeat;
 }
 
-
+h2 {
+	padding: 10px 10px 10px 10px;
+	font-size: 50px;
+}
 
 /* Nav styles */
-nav { background-color: #444446; }
+nav { background-color: #b3b3b3; }
 nav ul { 
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-end;	
 }
+
+
 nav li { padding: 15px 15px; }
-nav a { color: white; }
-nav a:hover { color: grey; }
+nav a { color: #FFFFFF; }
+nav a:hover { color: #FFFFFF; }
+
 /**/
-
-
 
 /* Main styles */
 body{
-	background-image: url('../images/FixedSpacebackground.html');
-	background-position: 50% 50%
-	background-size: contain;
-	border-image-repeat: repeat;
+	/* #b3ae9e; */
+	color: #ffffff;
+	padding: 25,25,25,25;
+	background-image: url(../images/spacephoto.html);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 120%;
+	position: sticky;
+	background-color: #0d0d0d;
+	top:0;
+}
 
-
+/*	padding:25,25;
+	
+	background-position: absolute;
+	border-image-repeat: no-repeat;
+	position: center;
+	margin:0;
 	width:fill;
 	height:fill;
-	line-height:2em;">
+	line-height:2em;
 	color:#555;
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:16px;
-	line-height:1.6em;
+	font-size:18px;
+	line-height:2em;*/
 	
 }
 
-
 main { 
-	background-color: #F2F2F2;
+/*
+	width: 100%;
 	display: grid;
-	grid-template-columns: 62% 38%;
+	grid-template-columns: 3fr 1fr;*/	
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+
+
+
+aside {
+	color: #FFF;
+	background-color: #999;
+	padding: 20px, 20px,20px, 20px;
+	margin-right: : 2em;
+}
+
+aside ul { 
+	list-style-type: none; 
+	padding-left: .8em;
+	margin-top: 0;
+	color:#FFF;
 }
 
 section {
-	padding: 40px 60px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 1.6em;
+	margin-right: 0px;
+	padding: 40px;
+	color:#FFF;
+	vertical-align: center;
 }
 
-section ul, aside ul {
+section ul, {
 	list-style-type: square;
 	margin-top: 20px; 
 	margin-left: 30px;
+	color:#FFF;
 }
-
-aside {
-		padding: 40px 10px;
-}
-
-
-
 
 /* Footer styles */
 footer { 
