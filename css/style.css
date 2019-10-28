@@ -5,17 +5,20 @@
 /*Updating these as I work my through them*/
 /**/
 /*Links*/
+
+
 a {
 	text-decoration: none;
 	color: #333;
 }
 
+
 a:hover { color: #356; }
+
 header, nav, main, footer {
-	width: 85%;
-	margin: center;
+	width: auto;
+	margin: 25px;
 }
-/*Links*/
 
 
 /* Header styles */
@@ -25,8 +28,7 @@ header {
 
 	min-height: 20px;
 	width: auto;
-	margin:15px	15px;
-	background-color: #000000;
+	margin: top 25px;
 	flex-basis: 1;
 	border-image-width: all;
 	/*background-repeat: no-repeat; */
@@ -38,15 +40,21 @@ h1 {
 }
 
 h2 {
-	padding: 10px 10px 10px 10px;
+	padding: 20px 10px 10px 10px;
 	font-size: 50px;
 }
+
+h3 {
+	padding: 20px 10px 10px 10px;
+	font-size: 50px;
+}
+
 
 /* Nav styles */
 nav { background-color: #b3b3b3; }
 nav ul { 
 	display: flex;
-	justify-content: flex-end;	
+	justify-content: left;	
 }
 
 
@@ -54,20 +62,17 @@ nav li { padding: 15px 15px; }
 nav a { color: #FFFFFF; }
 nav a:hover { color: #FFFFFF; }
 
-/**/
-
 /* Main styles */
 body{
-	/* #b3ae9e; */
+/* #b3ae9e; */
 	color: #ffffff;
 	padding: 25,25,25,25;
-	background-image: url(../images/spacephoto.html);
+	background-image: url(../images/spacephoto.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 120%;
-	position: sticky;
-	background-color: #0d0d0d;
-	top:0;
+/*background-color: #0d0d0d;*/
+	background-attachment: fixed;
 }
 
 /*	padding:25,25;
@@ -82,25 +87,35 @@ body{
 	color:#555;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:18px;
-	line-height:2em;*/
-	
+	line-height:2em;
+*/
+
 }
 
-main { 
+.main1 { 
+	padding: 20px, 20px,20px, 20px;
+	margin-right: : 2em;
+}
+
+.main2 { 
+	padding: 20px, 20px,20px, 20px;
+	margin-right: : 2em;
+}
 /*
 	width: 100%;
-	display: grid;
-	grid-template-columns: 3fr 1fr;*/	
+	display: grid/;
+	grid-template-columns: 3fr 1fr;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
+	color: #FFF;
+	opacity: .75;
+	background-color: #999;
 }
-
-
-
+*/
 
 aside {
 	color: #FFF;
-	background-color: #999;
+	background-color: rgba(217,217,217,0.3);
 	padding: 20px, 20px,20px, 20px;
 	margin-right: : 2em;
 }
@@ -109,24 +124,7 @@ aside ul {
 	list-style-type: none; 
 	padding-left: .8em;
 	margin-top: 0;
-	color:#FFF;
-}
-
-section {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-gap: 1.6em;
-	margin-right: 0px;
-	padding: 40px;
-	color:#FFF;
-	vertical-align: center;
-}
-
-section ul, {
-	list-style-type: square;
-	margin-top: 20px; 
-	margin-left: 30px;
-	color:#FFF;
+	color:#000;
 }
 
 /* Footer styles */
@@ -134,14 +132,75 @@ footer {
 	background-color: #000;
 	color: white;
 	text-align: center;
+	padding-bottom: 10px;
  }
 
 
 
-footer p { padding: 20px; }
+footer p { padding: 10px; }
 
 
 
 
 
+/*section*/
 
+/*Links*/
+.logo{width: 60%;}
+.spacecrafts a{ color:#fff; justify-content: center}
+.crafts{
+	text-align: right;
+	padding: 10px 10px 10px 10px;
+	font-size: 50px;
+}
+
+.tbox {
+  margin: 25px;
+  padding-top: 10px;
+  background-color: rgba(13,13,13,0.5);
+  border: .5px solid black;
+}
+
+.tbox p{
+  margin: 15px;
+  font-weight: thin;
+  color: #FFFFFF;
+}
+
+.first-grid {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-gap: 1.6em;
+	margin-right: 5px;
+	color:#FFF;
+	vertical-align: center;
+}
+
+.top-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1.6em;
+	margin-right: 5px;
+	color:#FFF;
+	vertical-align: center;
+}
+
+.second-grid {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 1.6em;
+	margin-right: 0px;
+	color:#FFF;
+	background-color: rgba(217,217,217,0.3);
+	vertical-align: center;
+}
+.columnA, { 
+	
+}
+/*section ul,*/
+.columnB {
+	list-style-type: square;
+	margin-top: 20px; 
+	margin-left: 30px;
+	color:#FFF;
+}
